@@ -1,5 +1,4 @@
 let number = 23;
-number = "zaman";
 
 console.log(number);
 
@@ -12,3 +11,11 @@ z = 15;
 
 
 console.log(z);
+
+let y;
+y = "zaman";
+y = 16; 
+y = "any value can assign. and can not explicitly assigned";
+
+console.log(y);
+
