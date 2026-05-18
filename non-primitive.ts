@@ -4,7 +4,7 @@ name.push("abul");
 
 console.log(name);
 
-let mixedArray : (string | number)[] = ['eggs', 12, 'milk', 1];
+let mixedArray: (string | number)[] = ['eggs', 12, 'milk', 1];
 mixedArray.push('apple');
 
 console.log(mixedArray);
@@ -24,22 +24,22 @@ newArray.push(15);
 console.log(newArray);
 console.log("new array is a number type array. when i want to assign string type value in this array, compile warning me. string data assigned but it is should not done.")
 
-let coOrdinates : [number, number] = [20, 30];
+let coOrdinates: [number, number] = [20, 30];
 console.log(coOrdinates);
 
-let nameAndRoll : [string, number] = ["zaman", 2018331533];
+let nameAndRoll: [string, number] = ["zaman", 2018331533];
 console.log(nameAndRoll);
 
-const user : {
-    readonly institution : string;
-    firstName : string;
-    middleName ? : string;
-    lastName : string;
+const user: {
+    readonly institution: string;
+    firstName: string;
+    middleName?: string;
+    lastName: string;
 } = {
-    institution : "Men",
-    firstName : "Md",
-    middleName : "Kamruzzaman",
-    lastName : "zaman"
+    institution: "Men",
+    firstName: "Md",
+    middleName: "Kamruzzaman",
+    lastName: "zaman"
 };
 
 console.log(user);
