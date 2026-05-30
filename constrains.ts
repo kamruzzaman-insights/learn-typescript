@@ -6,6 +6,7 @@ const addStudentToCourse = <T extends {id: number, name: string}> (studentInfo :
 };
 
 const student1 = {
+    
     id: 321,
     name: "Kamruzzaman",
     hasCar: true,
@@ -66,4 +67,3 @@ const product = {
 
 const result2 = getPropertyFromObj(product, "brand");
 console.log(result2);
-
